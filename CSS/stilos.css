@@ -1,0 +1,47 @@
+
+* { color: blue;}
+
+P , span{color: red;
+        width: 300px;
+        }
+        /*** esto es un comentario dentro de un documento css
+        **el asterico afecta a todo es como una regla general
+        font family me indica el tipo de letra que voy a usar **/
+        h1{ 
+            font-family: 'Roboto', sans-serif;
+            ;
+            border: 15px solid black ;
+            padding: 25px;
+            margin: 30px; 
+            font-weight:bold ;
+            color: grey;
+/***se puede especificar las medidas   frase   alto/top 5px, bajo/ bottom 10px,izquierdo/left 20px, derecho/ right 25px o sino frase 5px 10px 15px 20px 
+**/
+}
+
+       section{
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+          }
+          
+          #parrafo-nuevo {
+            color: blueviolet;
+            font-size: 23px;
+            border: 1px solid orange;
+          }
+          .estaesmiclase {
+            font-weight:bold ;
+            color: aqua;
+          }
+
+          
+          section h1 {
+            font-weight: 100px ;
+          }
+
+          /***asterisco crea una id que pego en html  esta es unica 
+          el punto es lo mismo  pero  crea una class se puede repetir 
+          section es lo mismo 
+**/
