@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculum</title>
+    <link rel="stylesheet" href="CSS/curriculum.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAlZXEAAMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiAAACAAAAAAIAAAIAAiIiAgAAAgAAAAACAAACAiIiIgIAAAIAAAAAAgAAAgIiIgACAAACAAABEQIAAAICIgERAgAAAgAAARECAAACAiIBEQIAAAICIgIiAgAAAgAAAAACAAACIiIiIiIAAAAAAAAAAAD//wAA4AMAAO/7AADuCwAA7/sAAOgLAADv+wAA6DsAAO+LAADoiwAA74sAAOiLAADoiwAA7/sAAOADAAD//wAA" rel="icon" type="image/x-icon" />
+    
+</head>
+
+
+<body>
+
+
+    <h1>curriculum vitae</h1>
+
+    <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="texto si la imagen no aparece"
+    heigth="200px" width="200px">
+    
+
+<p id="demo">informacion personal 
+        
+    <button type="button" id="boton_color1" > tema claro </button>
+    <button type="button" id="boton_color2" > tema oscuro </button>
+    <button type="button" id="es" >español  </button>
+    <button type="button" id="en" >  english </button>
+    <button onclick="window.print()">imprimir esta hoja</button>
+
+
+
+    
+     
+
+    <ul>
+        <li>nombre: Francis</li>
+        <li>apellido:Chambers  </li>
+        <li> fecha de nacimiento:4/6/1964 </li>    
+        <li>nacionalidad: estadounidense </li>
+        <li>e-mail:francis.chambers@example.com</li>
+        <li>direccion :2565 Harrison Ct . Estado de Arizona </li>
+        <li>telefono:(335) 290-2081</li>
+    
+
+
+    </ul>
+</p>
+
+
+
+<p1  id="demo1">hoja de vida:
+    estudie en un colegio que quedaba cerca de casa y termine la higth school en 1983 con notas normales ,
+    comense la universidad en ingenieria dos años despues conoci a  mi actual pareja (con la cual tengo dos hijos) 
+    me recibi en el 88 y a los meses me llamaron para trabajar en una empresa internacional llamada 
+    the stone.inc encargada de construir casas y caminos como habia aprendido español en la escuela habia veses
+     que me tocaba hacer de interprete entre mis jefes y mis compañeros esto hizo que me suban de puesto hasta que 
+     un dia me propusieron ir a trabajar a europa lo hable con la familia y confirmamos.  Pasaron los años hasta
+      que un dia decidi volver a casa pero como mis jefes no querian hacer la transferencia renuncie y volvi a casa
+      por eso envio este e-mail a su empresa 
+
+
+
+      <ul>
+        <li>tengo mas de de 30 años de experiencia en el trabajo </li>
+        <li>trabajo en equipo</li>
+        <li>paciente y puntual </li>
+        <li>  puede consultar a mis jefes 
+            *tel: 12345678
+            *e-mail:thestone@gmail.com </li>
+
+        
+
+
+
+
+      </ul>
+
+
+ 
+    </p>
+<script>
+function myFunction() {
+  let text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML =
+  text.replace("informacion personal, nombre: , apellido , fecha de nacimiento ,nacionalidad: estadounidense ,direccion ,Estado de Arizona ,telefono"
+  ,"personal information, name:, last name, date of birth, nationality: American, address, State of Arizona, telephone");
+}
+</script>
+
+
+<script src="js/curriculum.js"></script>
+    
+</body>
+</html>
