@@ -13,7 +13,7 @@ document. getElementById ("boton_color2") . addEventListener ("click" , function
 document.getElementById("es").addEventListener("click", function() {
   idioma = "es";
   
-});
+} );
 
 
 document.getElementById("en").addEventListener("click", function() {
