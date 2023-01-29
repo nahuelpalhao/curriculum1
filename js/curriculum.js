@@ -17,7 +17,7 @@ document.getElementById("es").addEventListener("click", function() {
 
 
 document.getElementById("en").addEventListener("click", function() {
-  idioma = alert( "algo salio mal busca en la consola" );
+  idioma = alert( "algo salio mal busca en la consola /something went wrong search the console" );
   
 });
 
